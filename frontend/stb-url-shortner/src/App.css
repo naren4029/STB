@@ -1,0 +1,85 @@
+.app {
+  height: 100vh;
+}
+.app-header {
+  padding: 10px;
+  font-size: calc(10px + 2vmin);
+  color: #333;
+  box-shadow: 1px 1px 2px #666;
+  text-shadow: 1px 2px 2px #ccc;
+}
+.form {
+  padding: 20px 10px;
+}
+
+.form__label {
+  margin-right: 5px;
+}
+
+.form__input-text {
+  padding: 5px;
+  border-radius: 3px;
+  margin-right: 5px;
+  width: 50vw;
+  border: 1px solid #ccc;
+}
+
+.btn {
+  padding: 5px;
+  border-radius: 3px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-bottom: 2px solid #777;
+  cursor: pointer;
+}
+
+.btn:disabled {
+  background: #ccc;
+  color: #777;
+  cursor: not-allowed;
+}
+
+.btn--primary {
+  background: #2196f3;
+  color: #fff;
+}
+
+.form__input-text:focus,
+.btn--primary:focus {
+  outline: 1px solid #2196f3;
+}
+
+.error-wrapper {
+  text-indent: 30vw;
+}
+
+.error__block {
+  color: red;
+}
+
+.success-wrapper {
+  padding: 5px;
+  background: #89d58c;
+  margin: 10px 0;
+  border-radius: 3px;
+  border: 2px solid #4caf50;
+}
+
+.error-notification {
+  padding: 5px;
+  background: #ffafaf;
+  margin: 10px;
+  border-radius: 3px;
+  border: 2px solid #b25858;
+  color: #fff;
+}
+
+.close-error-pnl {
+  font-weight: bold;
+  font-size: 16px;
+  float: right;
+  padding: 3px;
+  text-align: center;
+  line-height: 14px;
+  cursor: pointer;
+}
