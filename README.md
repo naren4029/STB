@@ -47,7 +47,7 @@
 - Frontend Unit testing:
 
 1. Navigate to path "STB\frontend\stb-url-shortner" run command "npm test" to execute frontend unit testcases
-2. All unit test files are named as _.spec.tsx or _.spec.ts
+2. All unit test files are named as \*.spec.tsx or \*.spec.ts
 
 - Backend Unit testing:
 
@@ -59,3 +59,5 @@
 1. Navigate to path "STB\backend\stb-url-shortner" run command "npm start" (host & port:localhost:80) [localhost IP:127.0.0.1].
 2. Open browser (prefered browser: google chrome) enter "localhost:80" in location bar.
 3. Application is ready for testing.
+
+<--End of File-->
